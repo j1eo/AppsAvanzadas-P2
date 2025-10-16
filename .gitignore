@@ -1,0 +1,28 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependencies & package managers
+/vendor/
+composer.phar
+
+# Env & secrets (DON'T COMMIT SECRETS)
+.env
+.env.*
+*.key
+*.pem
+
+# Logs / cache / temp
+*.log
+*.tmp
+tmp/
+cache/
+runtime/
+storage/
+bootstrap/cache/
+public/*.map
